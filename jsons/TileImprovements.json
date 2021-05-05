@@ -51,14 +51,16 @@
 		"name": "Oil well",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 9,
-		"techRequired": "Biology"
+		"techRequired": "Biology",
+		"shortcutKey": "W"
 	},
 	{
 		"name": "Pasture",
 		"resourceTerrainAllow": ["Desert Hill"],
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"]
+		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Plantation",
@@ -80,52 +82,60 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] once [Compass] is discovered"]
+		"uniques": ["[+1 Gold] once [Compass] is discovered"],
+		"shortcutKey": "F"
 	},
 
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
 		"resourceTerrainAllow": ["Grassland","Plains","Forest","Jungle","Desert"],
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Land Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"food": 1,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Land Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"production": 1,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]"],
+		"shortcutKey": "C"
 	},
 	{
 		"name": "Land Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 4,
 		"science": 3,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]"],
+		"shortcutKey": "G"
 	},
 	{
 		"name": "Sea Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
 		"food": 4,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
 		"production": 4,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]"],
+		"shortcutKey": "C"
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
 		"gold": 6,
 		"science": 5,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"uniques": ["Provides [-1] [Trade Route]"],
+		"shortcutKey": "G"
 	},
 
 	// Military improvements
@@ -150,7 +160,8 @@
 		"name": "Railroad",
 		"turnsToBuild": 4,
 		"techRequired": "Railroad",
-		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"]
+		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"],
+		"shortcutKey": "T"
 	},
 
 	// Removals
@@ -191,16 +202,19 @@
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "Z"
 	},
 	{
 		"name": "Remove Railroad",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "Z"
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "Z"
 	},
 
 	// Great Person improvements
@@ -208,22 +222,26 @@
 		"name": "Academy",
 		"science": 8,
 		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered",
-			"[+2 Science] once [Atomic Theory] is discovered"]
+			"[+2 Science] once [Atomic Theory] is discovered"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Landmark",
 		"culture": 6,
-		"uniques": ["Great Improvement"]
+		"uniques": ["Great Improvement"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Manufactory",
 		"production": 4,
-		"uniques": ["Great Improvement","[+1 Production] once [Chemistry] is discovered"]
+		"uniques": ["Great Improvement","[+1 Production] once [Chemistry] is discovered"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Customs house",
 		"gold": 4,
-		"uniques": ["Great Improvement","[+1 Gold] once [Economics] is discovered"]
+		"uniques": ["Great Improvement","[+1 Gold] once [Economics] is discovered"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Citadel",
@@ -251,7 +269,8 @@
 		"culture": 2,
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"]
+		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Brazilwood Camp",
@@ -260,7 +279,8 @@
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques": ["[+2 Culture] once [Acoustics] is discovered"]
+		"uniques": ["[+2 Culture] once [Acoustics] is discovered"],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Polder",
@@ -269,7 +289,8 @@
 		"food": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"]
+		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Kasbah",
@@ -280,7 +301,8 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%"]
+		"uniques": ["Gives a defensive bonus of [50]%"],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Feitoria",
@@ -289,7 +311,8 @@
 		"gold": 3,
 		"happiness": 2,
 		"techRequired": "Navigation",
-		"uniques": ["Gives a defensive bonus of [50]%","Can only be built on Coastal tiles"]
+		"uniques": ["Gives a defensive bonus of [50]%","Can only be built on Coastal tiles"],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Terrace farm",
