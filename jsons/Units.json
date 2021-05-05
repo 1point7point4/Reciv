@@ -313,7 +313,7 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
-		"attackSound": "arrow"	
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Spearman",
@@ -385,7 +385,7 @@
 		"promotions": ["Cover I"],
 		"attackSound": "metalhit"
 	},
-	
+
 	/* Classical Era */
 	{
 		"name": "Catapult",
@@ -416,7 +416,7 @@
 		"upgradesTo": "Trebuchet",
 		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
-	},	
+	},
 	{
 		"name": "Siege Tower", //modded
 		"unitType": "Melee",
@@ -424,7 +424,7 @@
 		"replaces": "Catapult",
 		"movement": 2,
 		"strength": 12,
-		"cost": 75, 
+		"cost": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Civil Service",
@@ -548,7 +548,7 @@
 		"upgradesTo": "Knight",
 		"uniques": ["Can move after attacking","Penalty vs City 33%",
 			"Consumes [1] [Horses]"],
-		"attackSound": "horse"		
+		"attackSound": "horse"
 	},
 	{
 		"name": "African Forest Elephant", //modded
@@ -565,9 +565,9 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"promotions": ["Feared Elephant","Great Generals II"],
-		"attackSound": "horse"		
+		"attackSound": "horse"
 	},
-	
+
 	// Medieval Era
 
 	{
@@ -842,7 +842,7 @@
 		"promotions": ["Great Generals I","Quick Study"],
 		"attackSound": "arrow"
 	},
-	
+
 	// Rennaisance Era
 
 	{
@@ -1079,7 +1079,7 @@
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"attackSound": "horse"
 	},
-	
+
 	// Industrial Era
 
 	{
@@ -1113,7 +1113,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
-	},	
+	},
 	{
 		"name": "Norwegian Ski Infantry",
 		"unitType": "Melee",
@@ -1254,7 +1254,7 @@
 		"promotions": ["Homeland Guardian","Desert Warrior"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Comanche Riders", //modded
@@ -1538,7 +1538,7 @@
 		"uniques": ["Defense bonus when embarked","+1 Visibility Range"],
 		"promotions": ["Amphibious"],
 		"attackSound": "shot"
-	},	
+	},
 	{
 		"name": "Bazooka", //modded
 		"unitType": "Ranged",
@@ -1573,7 +1573,7 @@
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Great Generals II"],
-		"attackSound": "shot"		
+		"attackSound": "shot"
 	},
 	{
 		"name": "Mobile SAM", //modded
@@ -1677,8 +1677,8 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Consumes [1] [Uranium]"],
 		"attackSound": "shot"
 	},
-	
-	
+
+
 	/* Great people */
 
 	{
@@ -1727,6 +1727,6 @@
 		"unitType": "WaterCivilian",
 		"uniques": ["Bonus for units in 2 tile radius 15%","Heal adjacent units for an additional 15 HP per turn","Unbuildable"],
 		"movement": 6
-	}	
+	}
 
 ]

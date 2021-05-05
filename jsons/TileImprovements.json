@@ -37,7 +37,7 @@
 		"uniques": ["[+1 Gold] once [Economics] is discovered"],
 		"shortcutKey": "T"
 	},
-	
+
 	// Resource-specific
 	{
 		"name": "Camp",
@@ -152,7 +152,7 @@
 		"techRequired": "Railroad",
 		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"]
 	},
-	
+
 	// Removals
 	{
 		"name": "Remove Forest",
@@ -202,7 +202,7 @@
 		"name": "Cancel improvement order",
 		"uniques": ["Can be built outside your borders"]
 	},
-	
+
 	// Great Person improvements
 	{
 		"name": "Academy",

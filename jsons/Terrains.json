@@ -82,7 +82,7 @@
 		"RGB": [231,242,249],
 		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0] and [0.5]"]
 	},
-	
+
 	// Terrain features
 	{
 		"name": "Forest",
@@ -175,7 +175,7 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
- 
+
 	// Natural Wonders
 	{
 		"name": "Great Barrier Reef",
@@ -287,4 +287,4 @@
 		"unbuildable": true,
 		"weight": 10
 	}
-]	
+]

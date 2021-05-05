@@ -19,7 +19,7 @@
         "cannotBeBuiltWith": "~limit",
         "providesFreeBuilding": "~limit",
         "requiredTech": "Astronomy",
-        "isNationalWonder": true, 
+        "isNationalWonder": true,
         "cost": -1,
         "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
     },
@@ -130,7 +130,7 @@
         "cost": -1,
         "uniques": ["Provides [-4] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
     },
-	
+
 	// Buildings & Wonders
     // Ancient Era
     {
@@ -172,7 +172,7 @@
         "maintenance": 1
     },
     {
-        "name": "Granary", 
+        "name": "Granary",
         "food": 2,
         "maintenance": 1,
         "hurryCostModifier": 25,
@@ -184,7 +184,7 @@
         "requiredTech": "Pottery"
     },
     {
-        "name": "Stone Works", 
+        "name": "Stone Works",
         "happiness": 1,
         "production": 1,
         "requiredNearbyImprovedResources": ["Marble","Stone"],
@@ -222,7 +222,7 @@
         "name": "Royal Library", //modded
         "replaces": "Library",
         "uniqueTo": "Assyria",
-        "cost": 75,            
+        "cost": 75,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
         "maintenance": 1,
@@ -241,7 +241,7 @@
         "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
     },
     {
-        "name": "Circus", 
+        "name": "Circus",
         "requiredNearbyImprovedResources": ["Ivory","Horses"],
         "happiness": 2,
         "hurryCostModifier": 25,
@@ -255,10 +255,10 @@
         "uniques": ["Must be on [River]"],
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "requiredTech": "The Wheel"     
+        "requiredTech": "The Wheel"
     },
     {
-        "name": "Floating Gardens", 
+        "name": "Floating Gardens",
         "replaces": "Water Mill",
         "uniqueTo": "Aztecs",
         "cost": 75,
@@ -266,8 +266,8 @@
         "production": 1,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["+[15]% [Food] [in this city]","[+2 Food] from [Lakes] tiles in this city","Must be next to [Fresh water]"],
-        "requiredTech": "The Wheel"     
+        "uniques": ["+[15]% [Food] [in this city]","[+1 Food] from [Lakes] tiles in this city","Must be next to [Fresh water]"],
+        "requiredTech": "The Wheel"
     },
     {
         "name": "Temple of Artemis",
@@ -321,7 +321,7 @@
         "maintenance": 1,
         "uniques": ["New [Military] units start with [15] Experience in this city","All newly-trained [Melee] units in this city receive the [Buffalo Horns I] promotion"],
         "requiredTech": "Bronze Working"
-    }
+    },
     {
         "name": "Colossus",
         "culture": 1,
@@ -392,14 +392,14 @@
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
     {
-        "name": "Caravansary", 
+        "name": "Caravansary",
         "cost": 120,
         "hurryCostModifier": 25,
         "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] in this city"],
         "requiredTech": "Horseback Riding"
-    }
+    },
     {
-        "name": "Stable", 
+        "name": "Stable",
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "hurryCostModifier": 25,
@@ -452,7 +452,7 @@
         "requiredTech": "Mathematics"
     },
     {
-        "name": "Colosseum", 
+        "name": "Colosseum",
         "maintenance": 1,
         "happiness": 2,
         "hurryCostModifier": 25,
@@ -550,7 +550,7 @@
         "hurryCostModifier": 25,
         "uniques": ["[+2 Gold] from [Gold Ore] tiles in this city", "[+2 Gold] from [Silver] tiles in this city"],
         "requiredTech": "Currency"
-    },  
+    },
     {
         "name": "Petra", //modded
         "isWonder": true,
@@ -678,7 +678,7 @@
         "quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.'  - Hiram Bingham"
     },
     {
-        "name": "Workshop", 
+        "name": "Workshop",
         "maintenance": 2,
         "production": 2,
         "specialistSlots": {"Engineer": 1},
@@ -802,8 +802,7 @@
     {
         "name": "Notre Dame",
         "culture": 3,
-        "happiness": 10,
-        "greatPersonPoints": {"gold": 1},
+        "happiness": 8,
         "isWonder": true,
         "requiredTech": "Physics",
         "quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.'  - Victor Hugo"
@@ -867,7 +866,7 @@
     {
         "name": "Satrap's Court",
         "replaces": "Bank",
-        "uniqueTo": "Persia",   
+        "uniqueTo": "Persia",
         "gold": 3,
         "specialistSlots": {"Merchant": 1},
         "happiness": 2,
@@ -878,7 +877,7 @@
     {
         "name": "Hanse",
         "replaces": "Bank",
-        "uniqueTo": "Germany",      
+        "uniqueTo": "Germany",
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
@@ -939,12 +938,12 @@
         "uniques": ["+[50]% [Culture] [in this city]","Cost increases by [30] per owned city",
             "Requires a [Opera House] in all cities"],
         "requiredTech": "Archaeology"
-    }, 
+    },
     {
         "name": "The Louvre",
         "culture": 1,
         "happiness": 4,
-        "isWonder": true, 
+        "isWonder": true,
         "uniques": ["[2] free [Great Artist] units appear","Requires [Exploration]"],
         "requiredTech": "Archaeology",
         "quote": "'Every genuine work of art has as much reason for being as the earth and the sun'  - Ralph Waldo Emerson"
@@ -985,7 +984,7 @@
         "uniques": ["Free [Great Scientist] appears","Science gained from research agreements +50%","Requires [Rationalism]"],
         "requiredTech": "Architecture",
         "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.'  - James Russell Lowell"
-    }, 
+    },
     {
         "name": "Windmill",
         "production": 2,
@@ -1005,7 +1004,7 @@
         "hurryCostModifier": 25,
         "maintenance": 2,
         "uniques": ["+[5]% [Production] [in this city]","+[25]% great person generation in this city"],
-        "requiredTech": "Economics"     
+        "requiredTech": "Economics"
     },
     {
         "name": "Arsenal", //modded
@@ -1022,14 +1021,14 @@
         "culture": 1,
         "cityHealth": 12,
         "isWonder": true,
-        "greatPersonPoints": {"science": 1},    
+        "greatPersonPoints": {"science": 1},
         "uniques": ["Defensive buildings in all cities are 25% more effective"],
         "requiredTech": "Metallurgy",
         "quote": "'When we build, let us think that we build forever.'   –- John Ruskin"
     },
-    
+
     // Industrial Era
-    
+
     {
         "name": "Public School",
         "science": 3,
@@ -1096,9 +1095,9 @@
         "hurryCostModifier": 0,
         "maintenance": 3,
         "uniques": ["Must be on [River]","[+1 Production] from [River] tiles in this city","Consumes [1] [Aluminum]"],
-        "requiredTech": "Electricity"     
+        "requiredTech": "Electricity"
     },
-    
+
     // Modern Era
 
     {
@@ -1117,7 +1116,7 @@
         "uniques": ["+[33]% [Culture] [in this city]","Requires a [Museum] in this city"],
         "maintenance": 3,
         "requiredTech": "Radio"
-    },    
+    },
     {
         "name": "Eiffel Tower", //adjusted
         "culture": 1,
@@ -1149,7 +1148,7 @@
     },
     {
         "name": "Research Lab",
-        "science": 4,       
+        "science": 4,
         "percentStatBonus": {"science": 50},
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
@@ -1175,7 +1174,7 @@
         "name": "Cristo Redentor",
         "culture": 5,
         "isWonder": true,
-        "greatPersonPoints": {"culture": 2},        
+        "greatPersonPoints": {"culture": 2},
         "uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
         "requiredTech": "Flight",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
@@ -1184,7 +1183,7 @@
         "name": "Kremlin", //adjusted
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"science": 1},    
+        "greatPersonPoints": {"science": 1},
         "uniques": ["+[50]% Production when constructing [Armor] units [in all cities]","Free Social Policy",
             "Requires [Order]"],
         "requiredTech": "Railroad",
@@ -1220,21 +1219,21 @@
     },
     {
         "name": "Nuclear Plant",
-        "production": 5,        
+        "production": 5,
         "maintenance": 3,
         "cannotBeBuiltWith": "Solar Plant",
         "uniques": ["+[15]% [Production] [in this city]","Requires a [Factory] in this city","Consumes [1] [Uranium]"],
         "requiredTech": "Nuclear Fission"
     },
     {
-        "name": "Recycling Center",    
+        "name": "Recycling Center",
         "maintenance": 3,
         "requiredTech": "Ecology",
         "uniques": ["Provides [2] [Aluminum]"]
     },
     {
         "name": "Solar Plant",
-        "production": 5,        
+        "production": 5,
         "maintenance": 3,
         "cannotBeBuiltWith": "Nuclear Plant",
         "requiredTech": "Ecology",
@@ -1257,9 +1256,9 @@
         "requiredTech": "Combined Arms",
         "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.'  - Dwight D. Eisenhower"
     },
-    
+
     // Future Era
- 
+
     {
         "name": "Spaceship Factory",
         "production": 3,
@@ -1280,7 +1279,7 @@
         "isNationalWonder": true,
         "uniques": ["Enables construction of Spaceship parts"],
         "requiredTech": "Rocketry"
-    },   
+    },
     {
         "name": "National Visitor's Center", //modded
         "isNationalWonder": true,
@@ -1302,7 +1301,7 @@
         "name": "Hubble Space Telescope",
         "cost": 1250,
         "isWonder": true,
-        "greatPersonPoints": {"science": 1},        
+        "greatPersonPoints": {"science": 1},
         "providesFreeBuilding":  "Spaceship Factory",
         "uniques": ["[2] free [Great Scientist] units appear",
             "+[25]% Production when constructing [Spaceship part] [in this city]"],

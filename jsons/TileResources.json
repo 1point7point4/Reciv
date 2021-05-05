@@ -56,7 +56,7 @@
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 0}
 	},
-	
+
 	// Strategic resources
 	{
 		"name": "Horses",
@@ -112,7 +112,7 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 2}
 	}
-	
+
 	// Luxury resources
 	{
 		"name": "Furs",
