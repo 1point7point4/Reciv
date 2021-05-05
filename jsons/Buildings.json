@@ -326,7 +326,7 @@
     {
         "name": "Saltern",
         "food": 1,
-        "gold": 1,
+        "maintenance": 1,
         // "uniqueTo": "n/a",
         "requiredTech": "Bronze Working",
         "cost": 70,
