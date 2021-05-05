@@ -324,6 +324,15 @@
         "requiredTech": "Bronze Working"
     },
     {
+        "name": "Saltern",
+        "food": 1,
+        "gold": 1,
+        // "uniqueTo": "n/a",
+        "requiredTech": "Bronze Working",
+        "cost": 70,
+        "uniques": ["Provides [1] [Salt]","Must be next to [Coast]",],
+    },
+    {
         "name": "Colossus",
         "culture": 1,
         "gold": 5,
