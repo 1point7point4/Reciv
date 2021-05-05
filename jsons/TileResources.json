@@ -1,4 +1,4 @@
-[	
+[
 	// Bonus resources
 	{
 		"name": "Cattle",
@@ -111,7 +111,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2}
-	}
+	},
 
 	// Luxury resources
 	{
@@ -235,7 +235,7 @@
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 0}
-	}
+	},
 	{
 		"name": "Bison", //modded
 		"resourceType": "Bonus",
