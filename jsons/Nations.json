@@ -1,5 +1,4 @@
 [
-
 	{
 		//nations
 		"name": "America",
@@ -47,8 +46,7 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Trade Caravans",
-		"uniqueText": " +1 Gold from every Trade Route, Double quantity of Oil produced
-		",
+		"uniqueText": " +1 Gold from every Trade Route, Double quantity of Oil produced\n",
 		"uniques": ["[+1 Gold] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
 			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
 			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",
@@ -76,8 +74,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Treasures of Nineveh",
-		"uniqueText": " When a city is conquered, gain a free Technology. Gaining a city through a trade deal does not count
-		",
+		"uniqueText": " When a city is conquered, gain a free Technology. Gaining a city through a trade deal does not count\n",
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -110,7 +107,6 @@
 		"name": "Aztecs",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
-		// TODO: nerf floating gardens from +2 food to +1 food
 		"startBias":["Lakes","Avoid [Tundra]","Avoid [Fallout]","Avoid [Ice]","Avoid [Desert]","Avoid [Snow]"],
 		"preferredVictoryType": "Domination",
 
@@ -126,8 +122,7 @@
 		"outerColor": [139,32,23],
 		"innerColor": [134,238,214],
 		"uniqueName": "Sacrificial Captives",
-		"uniqueText": " Gains Culture for the empire from each enemy unit killed
-		",
+		"uniqueText": " Gains Culture for the empire from each enemy unit killed\n",
 		"uniques": ["Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
@@ -230,8 +225,7 @@
 		"outerColor": [189,189,189],
 		"innerColor": [88,0,154],
 		"uniqueName": "Phoenician Heritage",
-		"uniqueText": " All coastal Cities gain a free Harbor. Units may cross mountains, taking 50 HP damage if they end a turn on a mountain
-		",
+		"uniqueText": " All coastal Cities gain a free Harbor. Units may cross mountains, taking 50 HP damage if they end a turn on a mountain\n",
 		"uniques": ["Gain a free [Harbor] [in all coastal cities]","[Land] units gain the [Phoenician Heritage] promotion"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
@@ -564,8 +558,7 @@
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
-		"uniqueText": " After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources
-		",
+		"uniqueText": " After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources\n",
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
 			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
@@ -667,8 +660,7 @@
 		"outerColor": [213,166,120],
 		"innerColor": [43,79,83],
 		"uniqueName": "The Long Count",
-		"uniqueText": " After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years)
-		",
+		"uniqueText": " After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years)\n",
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna",
 			"Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe",
 			"Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
@@ -718,8 +710,7 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniqueText": " +3 Gold and +1 Culture from every Trade Route
-		",
+		"uniqueText": " +3 Gold and +1 Culture from every Trade Route\n",
 		"uniques": ["[+3 Gold, +1 Culture] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
 			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
 			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]"],
@@ -747,8 +738,7 @@
 		"outerColor": [254,135,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Dutch East India Company",
-		"uniqueText": " All Cities provide 1 extra copy of each improved luxury resource
-		",
+		"uniqueText": " All Cities provide 1 extra copy of each improved luxury resource\n",
 		"uniques": ["Gain a free [~Dutch] [in all cities]"],
 		"cities": ["Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
 			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
@@ -978,8 +968,7 @@
 		"outerColor": [65,54,42],
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
-		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land.
-		"
+		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land.\n",
 		"uniques": ["-[75]% Culture cost of acquiring tiles [in this city]","+[15]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
@@ -1004,8 +993,7 @@
 		"outerColor": [214,145,19],
 		"innerColor": [90,0,10],
 		"uniqueName": "River Warlord",
-		"uniqueText": " Receive triple Gold from Barbarian encampments and pillaging Cities. Land units gain the War Canoes and Amphibious promotions.
-		",
+		"uniqueText": " Receive triple Gold from Barbarian encampments and pillaging Cities. Land units gain the War Canoes and Amphibious promotions.\n",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","[Land] units gain the [Amphibious] promotion",
 			"[Land] units gain the [War Canoes] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
@@ -1082,8 +1070,7 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
-		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics
-		"
+		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics\n",
 		"uniques": ["+[100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]",
 			"Double quantity of [Trade Route] produced"],
 		"cities": ["Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
@@ -1122,11 +1109,8 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255],
-//		"innerColor": [255,255,255],
-		"uniqueName": "All-seeing",
-		"uniqueText": ["Starts with every tech, and full view of the map"]
+//		"innerColor": [255,255,255]
 	},
-
 	//City-States
 	{
 		"name": "Milan",
@@ -1161,7 +1145,7 @@
 		"startBias": ["Coast"],
 
 		"declaringWar": "Our tribe must prosper... and you must fall.",
-		"attacked": "We always like a good challenge. I look forward to seeing your pathetic armies turned to dust.",
+		"attacked": "We always like a good challenge. I look forward to seeing your pathetic armies ground to dust.",
 		"defeated": "Very well, then... we shall serve you forevermore.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
@@ -1499,5 +1483,5 @@
 		"innerColor": [182,0,0],
 		"uniques": ["Can only heal by pillaging"]
 	}
-
+	//*/
 ]
