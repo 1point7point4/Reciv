@@ -1,0 +1,105 @@
+/* need implementation or improvement:
+ * dance of the aurora
+ * faith healers
+ * goddess of love
+ * goddess of protection
+ */
+[
+/*
+	{
+		"name": "Template",
+		"type": "Pantheon",
+		"uniques": ["[+1 X] from every [Y]"]
+	},
+*/
+	{
+		"name": "Ancestor Worship",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Shrine]"]
+	},
+	{
+		"name": "Dance of the Aurora",
+		"type": "Pantheon",
+		// TODO: make this +1 faith per every tundra that isn't forest, when possible
+		// or don't, some people suggest it's still weaker than desert folklore
+		"uniques": ["[+1 Faith] from every [Tundra]"]
+	},
+	{
+		"name": "Desert Folklore",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Desert]"]
+	},
+	{
+		"name": "Earth Mother",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Copper]","[+1 Culture] from every [Iron]","[+1 Culture] from every [Salt]"]
+	},
+	// Add faith healers properly, idk how
+	{
+		"name": "Fertility Rites",
+		"type": "Pantheon",
+		"uniques": ["+[10]% growth in all cities"]
+	},
+	{
+		"name": "God of Craftsmen",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production] in all cities"]
+	},
+	{
+		"name": "God of the Open Sky",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Pasture]"]
+	},
+	{
+		"name": "God of the Sea",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production] from every [Fishing Boats]"]
+	},
+	{
+		"name": "God of War",
+		"type": "Pantheon",
+		"uniques": ["Earn [5]% of [Land] opponent's [Cost] as [Culture] for kills"]
+	},
+	{
+		"name": "Goddess of Festivals",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+	},
+	{
+		// TODO: implement properly
+		"name": "Goddess of Love",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness] from every [Shrine]"]
+	},
+	{
+		"name": "Goddess of the Hunt",
+		"type": "Pantheon",
+		"uniques": ["[+1 Food] from every [Camp]"]
+	},
+
+	{
+		"name": "Template",
+		"type": "Pantheon",
+		"uniques": ["[+1 X] from every [Y]"]
+	},
+	{
+		"name": "Oral Tradition",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Plantation]"]
+	},
+	{
+		"name": "Religious Idols",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture, +1 Faith] from every [Gold]", "[+1 Culture, +1 Faith] from every [Silver]"]
+	},
+	{
+		"name": "Sacred Path",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Jungle]"]
+	},
+	{
+		"name": "Stone Circles",
+		"type": "Pantheon",
+		"uniques": ["[+2 Faith] from every [Quarry]"]
+	}
+]
