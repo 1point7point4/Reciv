@@ -138,6 +138,7 @@
         "isNationalWonder": true,
         "production": 5,
         "food": 2,
+        "happiness": 1,
         "science": 3,
         "gold": 3,
         "cityStrength": 2,
@@ -145,6 +146,12 @@
         "cost": 1,
         "uniques": ["Indicates the capital city","Provides [4] [Trade Route]","[-1 Gold] from every [River]",
             "[+1 Gold] from every [Flood plains]"]
+    },
+    {
+        "name": "Apothecary",
+        "hurryCostModifier": 0,
+        "uniques": ["[20]% of food is carried over after population increases"],
+        "requiredTech": "Herbal Lore"
     },
     {
         "name": "Monument",
@@ -573,9 +580,12 @@
     },
     {
         "name": "Aqueduct",
+        "cost": 60,
         "maintenance": 1,
         "hurryCostModifier": 0,
-        "uniques": ["[40]% of food is carried over after population increases"],
+        "uniques": ["[20]% of food is carried over after population increases",
+          "Requires a [Apothecary] in this city"
+        ],
         "requiredTech": "Engineering"
     },
     {

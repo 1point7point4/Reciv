@@ -26,6 +26,12 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible, Isaiah 45:9"
 			},
 			{
+				"name": "Herbal Lore",
+				"row": 3,
+				"prerequisites": ["Agriculture"],
+				"quote": "'The Herbs ought to be distilled when they are in their greatest vigor, and so ought the Flowers also.' - Nicholas Culpeper"
+			},
+			{
 				"name": "Animal Husbandry",
 				"row": 5,
 				"prerequisites": ["Agriculture"],
@@ -43,7 +49,6 @@
 				"prerequisites": ["Agriculture"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
-
 		]
 	},
 	{
@@ -60,16 +65,16 @@
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
-				"name": "Calendar",
+				"name": "Writing",
 				"row": 2,
-				"prerequisites": ["Pottery"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible, Psalms 90:12"
+				"prerequisites": ["Pottery", "Herbal Lore"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
-				"name": "Writing",
+				"name": "Calendar",
 				"row": 3,
-				"prerequisites": ["Pottery"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"prerequisites": ["Herbal Lore"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible, Psalms 90:12"
 			},
 			{
 				"name": "Trapping",
@@ -110,7 +115,7 @@
 				"row": 1,
 				"prerequisites": ["Sailing"],
 				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"quote": "'He made an instrument to know / if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
 				"name": "Horseback Riding",
